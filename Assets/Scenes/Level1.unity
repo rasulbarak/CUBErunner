@@ -1185,6 +1185,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1157077906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2872443897828680264, guid: 0cbefd715729d4b70bdaf24ec58e9247, type: 3}
+  m_PrefabInstance: {fileID: 3306202714890290069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1157077907
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157077906}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 450b76c006ba14b83bd2df563cbbeabe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1287044434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2340,7 +2367,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2872443897828680264, guid: 0cbefd715729d4b70bdaf24ec58e9247, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1157077907}
   m_SourcePrefab: {fileID: 100100000, guid: 0cbefd715729d4b70bdaf24ec58e9247, type: 3}
 --- !u!1001 &6697694526627701553
 PrefabInstance:
@@ -2410,6 +2440,10 @@ PrefabInstance:
     - target: {fileID: 2182126427236431436, guid: a1ff454f62aa64a73a24e59d7c5bfae9, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866187540106044348, guid: a1ff454f62aa64a73a24e59d7c5bfae9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4020410607134730246, guid: a1ff454f62aa64a73a24e59d7c5bfae9, type: 3}
       propertyPath: player
